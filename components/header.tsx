@@ -34,8 +34,11 @@ export default function Header() {
           <a href="#dashboard" className="text-muted-foreground hover:text-foreground transition-colors">
             Dashboard
           </a>
+          <a href="#verify" className="text-muted-foreground hover:text-foreground transition-colors">
+            Verify
+          </a>
         </nav>
-        <Button variant="default" size="sm" onClick={() => window.open("https://tally.so/r/menk2x", "_blank", "noopener,noreferrer")}>
+        <Button variant="default" size="sm">
           Verify a Project
         </Button>
       </div>

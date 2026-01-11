@@ -42,25 +42,13 @@ export default function VerificationCta() {
           <p className="text-xl text-primary-foreground/90 mb-10">
             Citizen verification is the foundation of real government accountability. Make your voice heard.
           </p>
- <button
-  type="button"
-  onClick={(e) => {
-    e.preventDefault()
-    e.stopPropagation()
-    window.open("https://tally.so/r/menk2x", "_blank", "noopener,noreferrer")
-  }}
-  className="inline-flex items-center justify-center rounded-md bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold px-10 py-4 text-lg animate-pulse-glow transition"
->
-  Verify a Project Now
-</button>
 
-
-
-
-
-        
-          
-          
+          <Button
+            size="lg"
+            className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold px-10 text-lg animate-pulse-glow"
+          >
+            Verify a Project Now
+          </Button>
 
           <div className="mt-12 text-primary-foreground/80">
             <p className="text-sm">Join 2,500+ citizens verifying government transparency</p>

@@ -31,12 +31,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a 
-                  href="https://tally.so/r/menk2x" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
+                <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                   Verify Projects
                 </a>
               </li>
