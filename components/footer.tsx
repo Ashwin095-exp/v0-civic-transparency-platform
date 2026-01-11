@@ -32,7 +32,7 @@ export default function Footer() {
               </li>
               <li>
                 <a 
-                  href="https://tally.so/r/MeNk2X" 
+                  href="https://tally.so/r/menk2x" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground transition-colors"

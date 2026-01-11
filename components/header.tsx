@@ -34,6 +34,7 @@ export default function Header() {
           <a href="#dashboard" className="text-muted-foreground hover:text-foreground transition-colors">
             Dashboard
           </a>
+<<<<<<< HEAD
           <a 
             href="https://tally.so/r/MeNk2X" 
             target="_blank" 
@@ -54,6 +55,15 @@ export default function Header() {
   Verify a Project
 </button>
 
+=======
+          <a href="#verify" className="text-muted-foreground hover:text-foreground transition-colors">
+            Verify
+          </a>
+        </nav>
+        <Button variant="default" size="sm">
+          Verify a Project
+        </Button>
+>>>>>>> 254947569013b500da1df351c1cde7f95c9cb2b3
       </div>
     </header>
   )

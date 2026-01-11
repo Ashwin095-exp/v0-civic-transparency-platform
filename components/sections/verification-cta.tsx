@@ -47,7 +47,7 @@ export default function VerificationCta() {
   onClick={(e) => {
     e.preventDefault()
     e.stopPropagation()
-    window.open("https://tally.so/r/MeNk2X", "_blank", "noopener,noreferrer")
+    window.open("https://tally.so/r/menk2x", "_blank", "noopener,noreferrer")
   }}
   className="inline-flex items-center justify-center rounded-md bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold px-10 py-4 text-lg animate-pulse-glow transition"
 >

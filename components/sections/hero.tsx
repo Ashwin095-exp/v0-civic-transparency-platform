@@ -46,7 +46,7 @@ export default function Hero() {
               <Button 
                 size="lg" 
                 className="text-base font-semibold px-8"
-                onClick={() => window.open("https://tally.so/r/MeNk2X", "_blank", "noopener,noreferrer")}
+                onClick={() => window.open("https://tally.so/r/menk2x", "_blank", "noopener,noreferrer")}
               >
                 Verify a Project
               </Button>
