@@ -34,36 +34,10 @@ export default function Header() {
           <a href="#dashboard" className="text-muted-foreground hover:text-foreground transition-colors">
             Dashboard
           </a>
-<<<<<<< HEAD
-          <a 
-            href="https://tally.so/r/MeNk2X" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-foreground transition-colors"
-          >
-            Verify
-          </a>
         </nav>
-        <button
-  type="button"
-  onClick={(e) => {
-    e.preventDefault()
-    e.stopPropagation()
-    window.open("https://tally.so/r/menk2x", "_blank", "noopener,noreferrer")
-  }}
->
-  Verify a Project
-</button>
-
-=======
-          <a href="#verify" className="text-muted-foreground hover:text-foreground transition-colors">
-            Verify
-          </a>
-        </nav>
-        <Button variant="default" size="sm">
+        <Button variant="default" size="sm" onClick={() => window.open("https://tally.so/r/menk2x", "_blank", "noopener,noreferrer")}>
           Verify a Project
         </Button>
->>>>>>> 254947569013b500da1df351c1cde7f95c9cb2b3
       </div>
     </header>
   )
