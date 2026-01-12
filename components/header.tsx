@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
+import { VERIFY_FORM_URL } from "@/lib/links"
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false)
@@ -34,11 +35,8 @@ export default function Header() {
           <a href="#dashboard" className="text-muted-foreground hover:text-foreground transition-colors">
             Dashboard
           </a>
-          <a href="#verify" className="text-muted-foreground hover:text-foreground transition-colors">
-            Verify
-          </a>
         </nav>
-        <Button variant="default" size="sm">
+        <Button variant="default" size="sm" onClick={() => window.open(VERIFY_FORM_URL, "_blank", "noopener,noreferrer")}>
           Verify a Project
         </Button>
       </div>

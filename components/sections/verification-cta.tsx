@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
+import { VERIFY_FORM_URL } from "@/lib/links"
 
 export default function VerificationCta() {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -45,7 +46,7 @@ export default function VerificationCta() {
           <Button
             size="lg"
             className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold px-10 text-lg animate-pulse-glow"
-            onClick={() => window.open("https://tally.so/r/menk2x", "_blank", "noopener,noreferrer")}
+            onClick={() => window.open(VERIFY_FORM_URL, "_blank", "noopener,noreferrer")}
           >
             Verify a Project Now
           </Button>

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
+import { VERIFY_FORM_URL } from "@/lib/links"
 
 export default function Hero() {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -39,10 +40,15 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Button size="lg" className="text-base font-semibold px-8">
+            <Button size="lg" className="text-base font-semibold px-8" onClick={() => window.open(VERIFY_FORM_URL, "_blank", "noopener,noreferrer")}>
               Verify a Project
             </Button>
-            <Button size="lg" variant="outline" className="text-base font-semibold px-8 bg-transparent">
+            <Button size="lg" variant="outline" className="text-base font-semibold px-8 bg-transparent" onClick={() => {
+              const element = document.getElementById("dashboard");
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+              }
+            }}>
               View Live Transparency
             </Button>
           </div>

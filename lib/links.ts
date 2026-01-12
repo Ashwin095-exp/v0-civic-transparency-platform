@@ -1,0 +1,1 @@
+export const VERIFY_FORM_URL = "https://tally.so/r/MeNk2X";
